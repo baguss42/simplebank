@@ -1,0 +1,9 @@
+version: "1"
+project:
+    id: "simple_bank"
+packages:
+    - name: "db"
+      path: "./db/sqlc"
+      queries: "./db/query/"
+      schema: "./db/migration/"
+      engine: "postgresql"
