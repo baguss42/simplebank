@@ -1,4 +1,4 @@
-name: ci-bagus-test
+name: Run unit test
 
 on:
   push:
