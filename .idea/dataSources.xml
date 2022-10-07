@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/simple_bank</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="AWS-Postgres" uuid="de7f63b8-4c44-4d1b-b70a-dec3442b5e12">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://simplebank.c8hqkpgliera.ap-southeast-3.rds.amazonaws.com:5432/simple_bank</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
